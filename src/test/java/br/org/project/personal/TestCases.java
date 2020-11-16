@@ -26,7 +26,7 @@ public class TestCases {
     //CT05
     @Test
     public void testInvalidUser() {
-        LoginResult result = apiReference.doLogin("marivado", "123456");
+        LoginResult result = apiReference.doLogin("marivaldo", "123456"); //deve falhar "l"
         assertEquals(LoginResult.INVALID_USER, result);
     }
     
